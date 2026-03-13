@@ -1,0 +1,81 @@
+{
+  "expo": {
+    "name": "Booknex",
+    "slug": "booknex",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#18191A"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#18191A"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.booknex.booknex"
+    },
+    "android": {
+      "package": "com.booknex.booknex",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon/foreground.png",
+        "backgroundImage": "./assets/images/adaptive-icon/background.png"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "mobile",
+          "organization": "booknex"
+        }
+      ],
+      "expo-secure-store",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/FiraSans-Bold.ttf",
+            "./assets/fonts/FiraSans-Light.ttf",
+            "./assets/fonts/FiraSans-Regular.ttf",
+            "./assets/fonts/OpenSans-Bold.ttf",
+            "./assets/fonts/OpenSans-Italic.ttf",
+            "./assets/fonts/OpenSans-Regular.ttf",
+            "./assets/fonts/Poppins-Bold.ttf",
+            "./assets/fonts/Poppins-Italic.ttf",
+            "./assets/fonts/Poppins-Regular.ttf",
+            "./assets/fonts/PTSerif-Bold.ttf",
+            "./assets/fonts/PTSerif-Italic.ttf",
+            "./assets/fonts/PTSerif-Regular.ttf",
+            "./assets/fonts/Roboto-Bold.ttf",
+            "./assets/fonts/Roboto-Italic.ttf",
+            "./assets/fonts/Roboto-Regular.ttf",
+            "./assets/fonts/SpaceGrotesk-Bold.ttf",
+            "./assets/fonts/SpaceGrotesk-Light.ttf",
+            "./assets/fonts/SpaceGrotesk-Regular.ttf",
+            "./assets/fonts/SpaceGrotesk-SemiBold.ttf",
+            "./assets/fonts/SpaceGrotesk-Medium.ttf"
+          ]
+        }
+      ],
+      "expo-localization"
+    ],
+    "experiments": {},
+    "extra": {
+      "eas": {
+        "projectId": "c0dfe310-6bed-42cc-bac8-7c0503effdbd"
+      }
+    },
+    "owner": "antonkravkenko"
+  }
+}
