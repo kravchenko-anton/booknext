@@ -7,7 +7,7 @@ import {
   BottomSheetSectionList,
   type BottomSheetSectionListMethods,
 } from "@gorhom/bottom-sheet";
-import type { EbookOutputChaptersInner } from "api-client";
+import type { EbookOutputChaptersInner } from "@/api/client";
 import { type FC, type RefObject, useMemo, useRef } from "react";
 import { Pressable } from "react-native";
 

@@ -9,7 +9,7 @@ import {
   RecommendationApi,
   StorageApi,
   UserApi
-} from 'api-client'
+} from '@/api/client'
 import { instance } from './interceptors'
 
 const mobileInstance: any = instance;

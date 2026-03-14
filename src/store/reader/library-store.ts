@@ -4,7 +4,7 @@ import { fetch } from '@react-native-community/netinfo'
 import dayjs from 'dayjs'
 import { create } from 'zustand'
 import { createJSONStorage, persist } from 'zustand/middleware'
-import type { SyncLibraryResponseReadingBooksInnerAuthor } from '../../../api-client'
+import type { SyncLibraryResponseReadingBooksInnerAuthor } from '@/api/client'
 
 
 export type Status = 'reading' | 'finished' | 'saved';

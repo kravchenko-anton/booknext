@@ -9,7 +9,7 @@ import { Color } from "@/utils/colors";
 import { MutationKeys, QueryKeys } from "@/utils/query-keys";
 import { successToast } from "@/utils/toast";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import type { UpdateRecommendationDto } from "api-client";
+import type { UpdateRecommendationDto } from "@/api/client";
 import { useState } from "react";
 import { View } from "react-native";
 

@@ -10,7 +10,7 @@ import { useMutation } from '@tanstack/react-query'
 import uuid from 'react-native-uuid'
 import type { WebViewMessageEvent } from 'react-native-webview'
 
-import type { GptExplain, TranslateText } from '../../../../api-client'
+import type { GptExplain, TranslateText } from '@/api/client'
 
 export enum ReaderMessageType {
   Scroll = "scroll",

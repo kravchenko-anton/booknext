@@ -5,7 +5,7 @@ import type { AuthDtoType } from '@/validation/auth/auth.schema'
 import * as Sentry from '@sentry/react-native'
 import { create } from 'zustand'
 import { createJSONStorage, persist } from 'zustand/middleware'
-import type { AuthOutput } from '../../../api-client'
+import type { AuthOutput } from '@/api/client'
 import { saveTokensStorage } from './auth-helper'
 
 export interface AuthStoreStateType {

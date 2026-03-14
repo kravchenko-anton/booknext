@@ -1,4 +1,4 @@
-[![booknext-banner-01-1500x500](./screens/Frame%201.png)]()
+[![booknext-banner-01-1500x500](src/utils/screenshots/Frame%201.png)]()
 
 
 
@@ -26,4 +26,4 @@ The curated model also meant a limited library, while many users prefer to read 
 ### 📷 More Screenshots
 
 
-[![booknext-banner-01-1500x500](./screens/Group%2030%20(1).png)]()
+[![booknext-banner-01-1500x500](src/utils/screenshots/Group%2030%20(1).png)]()

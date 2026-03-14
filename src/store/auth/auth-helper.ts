@@ -1,7 +1,7 @@
 import { errorCatch } from '@/utils/catch-error'
 
 import * as SecureStore from 'expo-secure-store'
-import { AuthApi } from '../../../api-client'
+import { AuthApi } from '@/api/client'
 
 const serverUrl = process.env.SERVER_URL;
 const auth = new AuthApi(
