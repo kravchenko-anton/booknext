@@ -15,7 +15,7 @@ import { StatusBar } from 'react-native'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
 import 'react-native-svg'
 import 'react-native-url-polyfill/auto'
-import '../env-config'
+import './utils/env-config'
 
 SplashScreen.preventAutoHideAsync();
 
